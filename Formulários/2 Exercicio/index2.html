@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2 </title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1> Formulários </h1>
+    <form name="cadastro">
+
+        <div> Dados Pessoais </div> <br> <br>
+        <label> Nome:  </label>
+        <input type="text" name="nome" style="width:230px" placeholder="Digitar o seu nome"> <br> <br>
+        
+        <label> Endereço:  </label>
+        <input type="text" name="Endereço" placeholder="Digitar o seu Endereço" style="width:180px"> <br> <br>
+        
+        <label>  Cidade: </label>
+        <input type="text" name="text" placeholder="Digitar sua Cidade" ><br> <br>
+        
+        <label> Estado: </label>
+
+        <select type="select" name="select" style="width:200px">
+
+            <option value="São Paulo"> São Paulo
+            </option>
+
+            <option value="Rio de Janeiro" select> Rio de Janeiro     
+            </option>
+
+            <option value="Rio Grande do Sul" select> Rio Grande do Sul     
+            </option>
+
+            <option value="Paraná" select> Paraná     
+            </option>
+
+            <option value="Espirito Santo" select> Espirito Santo     
+            </option>
+
+            <option value="Minas Gerais" select> Minas Gerais     
+            </option>
+
+        </select> <br><br><br>
+
+        <div> Dados Profissionais </div> <br> <br>
+        <label> Natureza do Cargo </label>   <br>  <br>
+        <input type="radio" name="Gerencia" value="Gerencia"> Gerencia
+        <input type="radio" name="Financeiro" value="Financeiro" checked> Financeiro
+        <input type="radio" name="Recepçao" value=" Recepção"> Recepção
+        <input type="radio" name="Administrativo" value="Administrativo" checked> Administrativo
+        <input type="radio" name="Juridico" value="Juridico"> Juridico
+
+        <br> <br>
+
+        <label> Área de Interesse : </label> <br><br>
+			<input type="checkbox" name="Computação" checked>Computação
+			<input type="checkbox" name="Biologia"> Biologia
+			<input type="checkbox" name="Meio Ambiente"> Meio Ambiente
+            <input type="checkbox" name="Engenharia"> Engenharia
+			<input type="checkbox" name=" História"> História <br><br>
+
+        <br> <br>
+
+        <label> Mini Curriculo: </label>
+        <input type="text" name="Curriculo" placeholder="Insira seu PDF neste campo" style="width:800px" height="800px"; border-radius="50">
+        </input>
+        </label> <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpar">
+        </form>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: wheat;
+    font-size: larger;
+    font-family: Arial;
+    text-align: left;
+    border: 1px solid white;
+}
+h1 {
+    text-align: center;
+    color: blueviolet;
+    border: 1px solid white;
+}
+div {
+    font-size: larger;
+    color: blueviolet;
+    text-align: center;
+    border:  1px solid rebeccapurple;
+    font-family: "Arial";
+}

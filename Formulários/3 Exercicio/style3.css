@@ -1,0 +1,14 @@
+h1 {
+    color: aquamarine;
+}
+div{
+    font-size: larger;
+    color: antiquewhite;
+    border: 1px solid white;
+    width: 200px;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
